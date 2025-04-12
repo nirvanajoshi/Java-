@@ -11,8 +11,8 @@ class calculator {
         
         System.out.print("Enter a Second number:");
         double num2 = input.nextInt();
-         
         double result=0;
+        boolean valid = true ;
         
         switch(oper){
             case"+" -> result = num1+num2;
@@ -22,6 +22,8 @@ class calculator {
             case"/" -> {
                 if(num2==0){
                 System.out.println("The number is not divisible by 0.");
+                valid = false;
+            
             }
             else{
                 result = num1/num2;
@@ -29,9 +31,14 @@ class calculator {
             }
                 
             }
-            default -> System.out.println("Invalid operation");
+            default -> {
+            System.out.println("Invalid operation");
+            valid=false;}
+            
         }
+        if(valid){
         System.out.println("Result:" + result);
+        }
        
         input.close();
         
