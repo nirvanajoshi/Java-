@@ -1,4 +1,3 @@
-import java.util.Scanner;
 class twodarray{
     // program to print number dail
     public static void main(String[] args) {

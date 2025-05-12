@@ -1,4 +1,3 @@
-//simple game to check bill of shoping cart
 import java.util.Scanner;
 class Shopingcart {
     public static void main(String[] args) {

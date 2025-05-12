@@ -10,6 +10,9 @@ class exception {
         catch(Exception e){
             System.out.println("You didn't Enter a number");
         }
-        input.close();
+        finally{
+            input.close();
+        }
+        
     }
 }

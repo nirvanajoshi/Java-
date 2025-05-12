@@ -1,4 +1,5 @@
- class dam {
+
+class dam {
     public static void main(String dam[] ) {
         System.out.println("Hello, \n Linux Java!");
         String name ="Damodar Joshi";

@@ -1,5 +1,5 @@
 import java.util.Scanner;
-class quizgame{
+class quizgame {
     // program to print number dail
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
@@ -29,11 +29,16 @@ class quizgame{
          if(result[i].equalsIgnoreCase(ans[i])){
              corr++;
          }
-        System.out.println("**************************************");
-        System.out.println("**************************************");
+        
       }
-      
-      System.out.println("Correct answer:"+corr);
+        System.out.println("**************************************");
+        System.out.println("**************************************"); 
+
+        System.out.println("Correct answer:"+corr);
+       
+        System.out.println("**************************************");
+        System.out.println("**************************************");
+        
       input.close();
                
         }
